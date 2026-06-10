@@ -1,0 +1,70 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+# Environment variables
+.env
+.env.*
+
+# Python
+__pycache__/
+*.pyc
+venv/
+
+# Node
+node_modules/
+
+# Database
+*.db
+*.sqlite3
+
+# Chroma Vector DB
+chroma_db/
+
+# Uploads
+uploads/
+
+# Personal documents
+*.pdf
+
+# Generated outputs
+generated_resume*
+ats_optimized.json
+career_goal_analysis.json
+cover_letters.json
+interview_questions.json
+job_listings.json
+ranked_jobs.json
+role_recommendations.json
+skill_gap_analysis.json
+parsed_resume.json
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+downloads/
+*.txt
